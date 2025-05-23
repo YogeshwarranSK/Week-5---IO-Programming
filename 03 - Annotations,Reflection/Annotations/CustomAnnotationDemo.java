@@ -16,7 +16,7 @@ class TaskManager {
     }
 }
 
-public class pr4 {
+public class CustomAnnotationDemo {
     public static void main(String[] args) throws Exception {
         Method method = TaskManager.class.getMethod("completeTask");
         if (method.isAnnotationPresent(TaskInfo.class)) {

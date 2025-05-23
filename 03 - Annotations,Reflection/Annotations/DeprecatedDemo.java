@@ -10,7 +10,7 @@ class LegacyAPI {
     }
 }
 
-public class pr2 {
+public class DeprecatedDemo {
     public static void main(String[] args) {
         LegacyAPI api = new LegacyAPI();
         api.oldFeature();

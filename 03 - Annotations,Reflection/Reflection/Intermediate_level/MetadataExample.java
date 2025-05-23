@@ -1,7 +1,6 @@
 package Day25.Reflection.Intermediate_level;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Annotation;
 
 @Retention(RetentionPolicy.RUNTIME)
 @interface Author {
@@ -9,9 +8,9 @@ import java.lang.annotation.Annotation;
 }
 
 @Author(name = "John Doe")
-public class pr6 {
+public class MetadataExample {
     public static void main(String[] args) {
-        Class<pr6> clazz = pr6.class;
+        Class<MetadataExample> clazz = MetadataExample.class;
 
         if (clazz.isAnnotationPresent(Author.class)) {
             Author authorAnnotation = clazz.getAnnotation(Author.class);

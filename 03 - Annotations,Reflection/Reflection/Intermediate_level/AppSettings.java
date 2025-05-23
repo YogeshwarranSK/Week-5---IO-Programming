@@ -1,7 +1,7 @@
 package Day25.Reflection.Intermediate_level;
 import java.lang.reflect.Field;
 
-public class pr7 {
+public class AppSettings {
     private static String API_KEY = "initial_api_key";
 
     public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {

@@ -3,7 +3,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 
-public class pr8 {
+public class ReflectionObjectMapper {
     public static <T> T toObject(Class<T> clazz, Map<String, Object> properties)
             throws InstantiationException, IllegalAccessException, NoSuchFieldException, NoSuchMethodException, InvocationTargetException {
         T instance = clazz.getDeclaredConstructor().newInstance();

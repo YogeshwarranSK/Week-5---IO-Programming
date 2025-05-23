@@ -14,7 +14,7 @@ class Student {
     }
 }
 
-public class pr4 {
+public class MyCourse {
     public static void main(String[] args) throws Exception {
         Class<?> clazz = Class.forName("Day25.Reflection.Basic_level.Student");
         Constructor<?> constructor = clazz.getConstructor();

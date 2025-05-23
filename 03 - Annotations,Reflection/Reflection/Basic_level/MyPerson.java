@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.Scanner;
 
-public class pr1 {
+public class MyPerson {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter full class name (e.g., java.util.ArrayList): ");

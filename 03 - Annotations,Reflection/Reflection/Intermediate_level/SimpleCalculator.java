@@ -3,7 +3,7 @@ package Day25.Reflection.Intermediate_level;
 import java.lang.reflect.Method;
 import java.util.Scanner;
 
-public class pr5 {
+public class SimpleCalculator {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         MathOperations operations = new MathOperations();

@@ -7,7 +7,7 @@ class Calculator {
     }
 }
 
-public class pr3 {
+public class MyMath {
     public static void main(String[] args) throws Exception {
         Calculator calc = new Calculator();
 

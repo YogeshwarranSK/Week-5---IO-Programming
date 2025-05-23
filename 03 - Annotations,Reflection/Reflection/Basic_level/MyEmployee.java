@@ -5,7 +5,7 @@ class Person {
      int age = 25;
 }
 
-public class pr2 {
+public class MyEmployee {
     public static void main(String[] args) throws Exception {
         Person person = new Person();
 

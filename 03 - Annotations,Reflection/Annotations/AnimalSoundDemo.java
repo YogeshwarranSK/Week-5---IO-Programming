@@ -12,7 +12,7 @@ class Dog extends Animal {
     }
 }
 
-public class pr1 {
+public class AnimalSoundDemo {
     public static void main(String[] args) {
         Dog myDog = new Dog();
         myDog.makeSound();

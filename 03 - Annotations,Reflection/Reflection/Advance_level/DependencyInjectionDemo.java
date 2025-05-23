@@ -55,7 +55,7 @@ class SimpleDIContainer {
     }
 }
 
-public class pr11 {
+public class DependencyInjectionDemo {
     public static void main(String[] args) throws Exception {
         Client client = SimpleDIContainer.createInstance(Client.class);
         client.doSomething();

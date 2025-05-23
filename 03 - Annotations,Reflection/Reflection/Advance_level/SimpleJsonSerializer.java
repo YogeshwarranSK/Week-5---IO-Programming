@@ -1,7 +1,7 @@
 package Day25.Reflection.Advance_level;
 import java.lang.reflect.Field;
 
-public class pr9 {
+public class SimpleJsonSerializer {
     public static String toJson(Object obj) throws IllegalAccessException {
         Class<?> clazz = obj.getClass();
         Field[] fields = clazz.getDeclaredFields();

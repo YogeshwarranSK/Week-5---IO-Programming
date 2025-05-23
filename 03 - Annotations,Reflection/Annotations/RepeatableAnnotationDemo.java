@@ -23,7 +23,7 @@ class BugTracker {
     }
 }
 
-public class pr5 {
+public class RepeatableAnnotationDemo {
     public static void main(String[] args) throws Exception {
         Method method = BugTracker.class.getMethod("process");
         BugReport[] reports = method.getAnnotationsByType(BugReport.class);

@@ -1,7 +1,7 @@
 package Day25.Reflection.Advance_level;
 import java.lang.reflect.Method;
 
-public class pr12 {
+public class MethodExecutionTimer {
 
     public static void measureExecutionTime(Object obj) throws Exception {
         Class<?> clazz = obj.getClass();

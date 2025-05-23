@@ -1,7 +1,7 @@
 package Day25.Annotations;
 import java.util.ArrayList;
 
-public class pr3 {
+public class SuppressWarningsDemo {
     @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         ArrayList list = new ArrayList();
