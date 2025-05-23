@@ -4,7 +4,7 @@ import java.nio.file.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class pr3 {
+public class MergedStudentCSVGenerator {
 
     public static void main(String[] args) {
         String file1 = "D:\\Capgemini\\Java\\src\\Day23\\Advanced\\students1.csv";

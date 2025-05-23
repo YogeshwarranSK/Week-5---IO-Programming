@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.regex.Pattern;
 
-public class pr1 {
+public class ContactValidator {
     public static void main(String[] args) {
         String fileName = "D:\\Capgemini\\Java\\src\\Day23\\Advanced\\contacts.csv";
 

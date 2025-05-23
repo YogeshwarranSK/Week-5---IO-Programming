@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Scanner;
 
-public class pr2 {
+public class EmployeeSearch {
     public static void main(String[] args) {
         String fileName = "D:\\Capgemini\\Java\\src\\Day23\\Intermediate\\employees.csv";
         Scanner scanner = new Scanner(System.in);

@@ -2,7 +2,7 @@ package Day23.Advanced;
 import java.sql.*;
 import java.io.*;
 
-public class pr6 {
+public class EmployeeReportExporter {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/your_db";
         String user = "username";

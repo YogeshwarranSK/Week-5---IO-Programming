@@ -4,7 +4,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
-public class pr5 {
+public class DuplicateRecordDetector {
     public static void main(String[] args) {
         String fileName = "D:\\Capgemini\\Java\\src\\Day23\\Advanced\\duplicates.csv";
 

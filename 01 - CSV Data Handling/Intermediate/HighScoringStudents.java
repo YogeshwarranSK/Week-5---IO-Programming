@@ -4,7 +4,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class pr1 {
+public class HighScoringStudents {
     public static void main(String[] args) {
         String fileName = "D:\\Capgemini\\Java\\src\\Day23\\Intermediate\\students.csv";
 

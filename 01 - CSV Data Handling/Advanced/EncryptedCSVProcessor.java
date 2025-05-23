@@ -4,7 +4,7 @@ import javax.crypto.spec.SecretKeySpec;
 import java.util.Base64;
 import java.io.*;
 
-public class pr8 {
+public class EncryptedCSVProcessor {
     private static final String key = "1234567890123456";
 
     public static String encrypt(String value) throws Exception {

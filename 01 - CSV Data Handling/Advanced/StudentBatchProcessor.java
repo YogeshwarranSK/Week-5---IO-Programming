@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class pr4 {
+public class StudentBatchProcessor {
     public static void main(String[] args) {
         String fileName = "D:\\Capgemini\\Java\\src\\Day23\\Advanced\\students.csv";
         int batchSize = 100;

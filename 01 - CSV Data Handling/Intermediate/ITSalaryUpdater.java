@@ -4,7 +4,7 @@ import java.nio.file.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class pr3 {
+public class ITSalaryUpdater {
     public static void main(String[] args) {
         String inputFile = "employees.csv";
         String outputFile = "updated_employees.csv";
