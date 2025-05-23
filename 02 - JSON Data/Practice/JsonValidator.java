@@ -2,7 +2,7 @@ package Day24.Practice;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
-public class pr5 {
+public class JsonValidator {
     public static void main(String[] args) {
         String json = "{ \"name\": \"Alice\", \"age\": 25 }"; // Try invalid JSON to test
 

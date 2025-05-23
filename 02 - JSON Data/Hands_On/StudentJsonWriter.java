@@ -1,4 +1,4 @@
-package Day24.Practice;
+package Day24.Hands_On;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.*;
 
@@ -12,15 +12,15 @@ class Student {
     }
 }
 
-public class pr6 {
+public class StudentJsonWriter {
     public static void main(String[] args) throws Exception {
-        List<Student> students = new ArrayList<>();
-        students.add(new Student("Yogesh", 21));
-        students.add(new Student("Kheshav", 21));
+        List<Student> students = Arrays.asList(
+                new Student("Sagar", 20),
+                new Student("Karthik", 22)
+        );
 
         ObjectMapper mapper = new ObjectMapper();
         String jsonArray = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(students);
-
         System.out.println(jsonArray);
     }
 }

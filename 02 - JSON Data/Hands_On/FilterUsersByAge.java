@@ -3,7 +3,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 
-public class pr3 {
+public class FilterUsersByAge {
     public static void main(String[] args) throws Exception {
         String json = """
         [

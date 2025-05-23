@@ -3,7 +3,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-public class pr6 {
+public class JsonToXmlConverter {
     public static void main(String[] args) throws Exception {
         String json = """
         {

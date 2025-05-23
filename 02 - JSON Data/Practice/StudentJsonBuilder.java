@@ -2,7 +2,7 @@ package Day24.Practice;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-public class pr1 {
+public class StudentJsonBuilder {
     public static void main(String[] args) {
         JSONObject student = new JSONObject();
         student.put("name", "Alice");

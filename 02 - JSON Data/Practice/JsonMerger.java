@@ -3,7 +3,7 @@ package Day24.Practice;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
-public class pr4 {
+public class JsonMerger {
     public static void main(String[] args) throws Exception {
         ObjectMapper mapper = new ObjectMapper();
 

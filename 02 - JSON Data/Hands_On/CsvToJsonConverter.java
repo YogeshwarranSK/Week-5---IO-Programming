@@ -4,7 +4,7 @@ import com.opencsv.CSVReader;
 import java.io.FileReader;
 import java.util.*;
 
-public class pr7 {
+public class CsvToJsonConverter {
     public static void main(String[] args) throws Exception {
         CSVReader reader = new CSVReader(new FileReader("data.csv"));
         List<String[]> rows = reader.readAll();

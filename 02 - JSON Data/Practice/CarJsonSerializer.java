@@ -13,7 +13,7 @@ class Car {
     }
 }
 
-public class pr2 {
+public class CarJsonSerializer {
     public static void main(String[] args) throws Exception {
         Car car = new Car("Toyota", "Camry", 2022);
         ObjectMapper mapper = new ObjectMapper();

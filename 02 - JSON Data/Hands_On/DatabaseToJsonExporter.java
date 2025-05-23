@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.sql.*;
 import java.util.*;
 
-public class pr8 {
+public class DatabaseToJsonExporter {
     public static void main(String[] args) throws Exception {
 
         String url = "jdbc:mysql://localhost:3306/student";
